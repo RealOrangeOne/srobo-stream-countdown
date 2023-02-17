@@ -7,20 +7,20 @@ main {
 }
 
 body {
-    background-image: url(background.png);
-    background-size: 100% 100%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100vw;
 
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-
 }
 
 main h1 {
     margin: 0;
-    font-size: 12rem;
+    font-size: 14rem;
     color: white;
 }
 
