@@ -3,7 +3,8 @@ main {
     justify-content:center;
     align-items:center;
 
-    height: 60vh;
+    width: 66%;
+    height: 66%;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
 
 main h1 {
     margin: 0;
-    font-size: 14rem;
     color: white;
 }
 

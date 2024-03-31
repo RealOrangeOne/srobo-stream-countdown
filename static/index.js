@@ -1,8 +1,9 @@
 const COUNTDOWN_ELEMENT_ID = "countdown";
+const MESSAGE_ELEMENT_ID = "message";
 
 function showMessage(text) {
     document.getElementById(COUNTDOWN_ELEMENT_ID).innerText = "";
-    document.getElementById("message").innerText = text;
+    document.getElementById(MESSAGE_ELEMENT_ID).innerText = text;
 }
 
 function updateCountdown(target) {
@@ -24,4 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
         setInterval(updateCountdown.bind(null, luxon.DateTime.fromISO(queryParam)), 250);
     }
 
+    fitty("#" + COUNTDOWN_ELEMENT_ID);
+    fitty("#" + MESSAGE_ELEMENT_ID);
 })
